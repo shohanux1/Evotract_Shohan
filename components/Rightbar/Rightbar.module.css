@@ -1,0 +1,34 @@
+.rightbar{
+    background: #F5F9FF;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-left: 1px solid #d7d3d0;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightbarTop{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.rightbarTop::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: #00FF00;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-out;
+}
+
+.avatar:hover{
+    box-shadow: 0 0 0 2px rgb(90, 90, 90);
+}

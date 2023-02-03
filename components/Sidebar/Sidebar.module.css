@@ -1,0 +1,152 @@
+.sidebar{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    position: relative;
+    width: 270px;
+    height: 100%;
+    background-color: #F5F9FF;
+    z-index: 100;
+    padding: 2rem 1.5rem;
+    /* transform: translateX(-100%); */
+    transition: all 300ms ease-in-out;
+}
+
+.collapsed{
+    width: 100px;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toggleIcon{
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ECE6E2;
+    background: #333;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    top: 40px;
+    right: -0.8rem;
+    cursor: pointer;
+}
+
+.toggleIcon:hover{
+    background: #1D1D1D;
+}
+
+.logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.scale{
+    transform: scale(0);
+}
+
+.menuOption{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0 1rem;
+    color: #4D4D5C;
+    margin: 1rem 0;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+
+.jutifyCenter{
+    justify-content: center;
+    padding: 0.4rem 0;
+    border-radius: 10px
+}
+
+.menuOption:hover{
+    background: #ECEBFF;
+}
+
+.option{
+    padding: 0.5rem 0;
+}
+
+.active{
+    background: #ECEBFF;
+}
+
+.subMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.subMenuItem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: #333;
+}
+
+
+.subMenuItem:hover{
+    background: #ECE6E2;
+}
+
+/* .chevron{
+    font-size: 1.6rem
+} */
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.logOutIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    background: black;
+    margin-right: 0.4rem;
+    transition: background 0.2s ease-out;
+}
+
+.logOutIcon:hover{
+    background: #1D1D1D;
+}
